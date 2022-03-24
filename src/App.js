@@ -14,8 +14,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/members" element={<Members />} />
+        <Route path="/react-agenda/" element={<Home />} />
+        <Route path="/react-agenda/members" element={<Members />} />
       </Routes>
     </Router>
     </>
