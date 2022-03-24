@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
+import { ReactComponent as Piraya} from './images/piraya.svg'
 
 function Navbar() {
     const [burger, setBurger] = useState(false);
@@ -28,8 +29,11 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
+                <div>
+                    <Piraya className='piraya-logo'/>
+                </div>
                 <Link to="/" className="navbar-logo">
-                    PIRAYA PARTY PROVIDERS
+                   PIRAYA PARTY PROVIDERS
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={burger ? 'fas fa-times' : 'fas fa-bars'} />

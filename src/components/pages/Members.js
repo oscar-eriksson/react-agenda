@@ -2,14 +2,10 @@ import React from 'react';
 import '../../App.css'
 import Footer from '../Footer';
 
-function Members() {
+export default function Members() {
     return (
         <>
-            <h1>Test</h1>
-            <br/>
-            <b>P R E S E N T A T I O N</b>
-            <br/>
-
+            <div className='members'>
             <blockquote>
                 <font size="2">
                     Piraya är Umeås Datavetares festeri. 
@@ -18,14 +14,12 @@ function Members() {
                     hoppas verkligen att ni alla har lust att deltaga i dessa underbara
                     tävlingar.
                     <br/>
-                    <br/>
                     Andra evenmang vi ordnar är bland annat chilisittning, gröt och glögg, 
                     och lagar ärtsoppa. Vi medverkar också på ett hörn på mottagningen.
                 </font>
             </blockquote>
+            </div>
             <Footer />
         </>
     );
 }
-
-export default Members;

@@ -7,17 +7,22 @@
 
 .home,
 .members {
+  background-color: #9abcde;
+  color: #333333;
+  font-size: 8pt;
   display: flex;
   height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+  align-items: left;
+  justify-content: top;
 }
 
-.home {
-  background-color: aquamarine;
-  background-position: center;
-  background-size: cover;
-  color: #ffff;
-  font-size: 100px;
+.home-text {
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.indent {
+  margin-top: 10px;
+  margin-left: 20px;
 }
