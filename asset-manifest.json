@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-agenda/static/css/main.4dd5579f.css",
-    "main.js": "/react-agenda/static/js/main.ab151f1f.js",
+    "main.js": "/react-agenda/static/js/main.f45207af.js",
     "static/media/piraya.svg": "/react-agenda/static/media/piraya.622f950e96d3224be31976f1780463b1.svg",
     "index.html": "/react-agenda/index.html",
     "main.4dd5579f.css.map": "/react-agenda/static/css/main.4dd5579f.css.map",
-    "main.ab151f1f.js.map": "/react-agenda/static/js/main.ab151f1f.js.map"
+    "main.f45207af.js.map": "/react-agenda/static/js/main.f45207af.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd5579f.css",
-    "static/js/main.ab151f1f.js"
+    "static/js/main.f45207af.js"
   ]
 }
